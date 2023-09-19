@@ -1,0 +1,47 @@
+[
+  {
+    "heading": "Sporcu Beslenmesi Danışmanlığı",
+    "desc1": "Sağlıklı Beslenme Eğitimleri",
+    "desc2": "Kilo almanın altında yatan nedenlerin bulunması ve iyileştirilmesi",
+    "desc3": "Aylık menü programlarının planlanması",
+    "desc4": "Kurumdakilere özel beslenme danışmanlığı",
+    "desc5": "Belirli aralıklarla besin tüketimi takibi",
+    "bgColor":"purple-200"
+  },
+  {
+    "heading": "Kilo Yönetimi Danışmanlığı",
+    "desc1": "Son 6 aya ait kan tahlilinin değerlendirilmesi",
+    "desc2": "Hedef ağırlığa ulaşma ve koruma eğitimi",
+    "desc3": "Kişiye özel yasaksız beslenme programı oluşturulması",
+    "desc4": "Düzenli tarti ve mezura olculerinin degerlendirilmesi",
+    "desc5": "Kişiye özel beslenme tavsiyeleri/ Günlük destek ve takip",
+    "bgColor":""
+  },
+  {
+    "heading": "Kurumsal Beslenme Danışmanlığı",
+    "desc1": "Sağlıklı Beslenme Eğitimleri",
+    "desc2": "Kilo almanın altında yatan nedenlerin bulunması ve iyileştirilmesi",
+    "desc3": "Aylık menü programlarının planlanması",
+    "desc4": "Kurumdakilere özel beslenme danışmanlığı",
+    "desc5": "Belirli aralıklarla besin tüketimi takibi",
+    "bgColor":""
+  },
+  {
+    "heading": "Hamilelik Dönemi ve Doğum Sonrası Beslenme Danışmanlığı",
+    "desc1": "Düzenli periyotlarla beslenme ve ağırlık takibi",
+    "desc2": "Bebeğin gelişimine özel beslenme programı",
+    "desc3": "Doğum sonrası emzirme danışmanlığı eğitimi",
+    "desc4": "",
+    "desc5": "",
+    "bgColor":""
+  },
+  {
+    "heading": "Ek Gıdaya Geçiş ve Çocukluk Döneminde Beslenme Danışmanlığı",
+    "desc1": "6. aydan itibaren başlanan ek gıdanın aylara göre düzenlenmesi",
+    "desc2": "Seçici beslenmenin önlenmesi için eğitim",
+    "desc3": "Çocukların büyüme ve gelişimini destekleyen beslenme programlarının oluşturulması",
+    "desc4": "Günlük destek ve takip",
+    "desc5": "",
+    "bgColor":"pink"
+  }
+]

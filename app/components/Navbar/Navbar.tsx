@@ -14,11 +14,11 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: "Hakkımda", href: "#aboutus-section", current: false },
-  { name: "Services", href: "#services-section", current: false },
+  { name: "Hakkımda", href: "#dedicated-section", current: false },
+  { name: "Paketler", href: "#services-section", current: false },
   { name: "SSS", href: "#faq-section", current: false },
   { name: "Blog", href: "#blog-section", current: false },
-  { name: "Testimonial", href: "#testimonial-section", current: false },
+  // { name: "Testimonial", href: "#testimonial-section", current: false },
 ];
 
 function classNames(...classes: string[]) {
@@ -41,7 +41,13 @@ const Navbar = () => {
                   href="/"
                   className="text-2xl sm:text-4xl font-semibold text-black"
                 >
-                  Dyt. Zehranaz Yolcu
+                  <img
+                    src="/images/banner/new-logo(svg).svg"
+                    alt="zehranaz-yolcu"
+                    className="logo"
+                    width={400}
+                    height={0}
+                  />
                 </Link>
               </div>
 
