@@ -12,11 +12,11 @@ const Digital = () => {
               WHO WE ARE
             </h3> */}
             <h4 className="text-4xl sm:text-6xl font-bold text-white mb-8 leading-snug text-center lg:text-start">
-              "Yasaksız Beslenme ile <br /> Mutlu ve Formda Kalın!"
+              Yasaksız Beslenme ile <br /> Mutlu ve Formda Kalın!
             </h4>
             <div className="text-center lg:text-start">
               <button className="text-xl font-semibold text-white bg-btnblue py-4 px-12 hover:bg-hoblue rounded-full">
-                Diyet Programlarimiz
+                <a href="#services-section">Diyet Programlarımız</a>
               </button>
             </div>
           </div>

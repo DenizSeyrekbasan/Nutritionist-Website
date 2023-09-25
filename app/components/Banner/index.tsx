@@ -1,13 +1,12 @@
 import Lottie from "react-lottie";
-import animationData from "../../../public/lottie/animation_lmg3449x.json";
+import AnimationData from "../../../public/lottie/animation_lmg3449x.json";
 import Image from "next/image";
-
 
 const Banner = () => {
   const heroAnimationOptions = {
     loop: true,
     autoplay: true,
-    animationData: animationData,
+    animationData: AnimationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -30,8 +29,8 @@ const Banner = () => {
             </h1>
           </div>
           <div className="my-7 text-center lg:text-start">
-            <button className="text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue" >
-              Hakkımda 
+            <button className="text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue">
+              <a href="#dedicated-section">Hakkımda</a>
             </button>
           </div>
         </div>

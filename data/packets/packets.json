@@ -1,12 +1,12 @@
 [
   {
     "heading": "Sporcu Beslenmesi Danışmanlığı",
-    "desc1": "Sağlıklı Beslenme Eğitimleri",
-    "desc2": "Kilo almanın altında yatan nedenlerin bulunması ve iyileştirilmesi",
-    "desc3": "Aylık menü programlarının planlanması",
-    "desc4": "Kurumdakilere özel beslenme danışmanlığı",
-    "desc5": "Belirli aralıklarla besin tüketimi takibi",
-    "bgColor":"purple-200"
+    "desc1": "Son 6 aya ait kan tahlilinin değerlendirimesi",
+    "desc2": "Yapılan spor dalına göre ideal kas ve yağ oranının kontrolü",
+    "desc3": "Antrenmana ve kişiye uygun hesaplamalarla beslenme programının oluşturulması",
+    "desc4": "Günlük destek ve takip",
+    "desc5": "",
+    "bgColor":""
   },
   {
     "heading": "Kilo Yönetimi Danışmanlığı",
@@ -14,7 +14,8 @@
     "desc2": "Hedef ağırlığa ulaşma ve koruma eğitimi",
     "desc3": "Kişiye özel yasaksız beslenme programı oluşturulması",
     "desc4": "Düzenli tarti ve mezura olculerinin degerlendirilmesi",
-    "desc5": "Kişiye özel beslenme tavsiyeleri/ Günlük destek ve takip",
+    "desc5": "Kişiye özel beslenme tavsiyeleri",
+    "desc6":"Günlük destek ve takip",
     "bgColor":""
   },
   {
@@ -42,6 +43,6 @@
     "desc3": "Çocukların büyüme ve gelişimini destekleyen beslenme programlarının oluşturulması",
     "desc4": "Günlük destek ve takip",
     "desc5": "",
-    "bgColor":"pink"
+    "bgColor":""
   }
 ]

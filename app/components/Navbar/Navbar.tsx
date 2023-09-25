@@ -17,7 +17,7 @@ const navigation: NavigationItem[] = [
   { name: "Hakkımda", href: "#dedicated-section", current: false },
   { name: "Paketler", href: "#services-section", current: false },
   { name: "SSS", href: "#faq-section", current: false },
-  { name: "Blog", href: "#blog-section", current: false },
+  // { name: "Blog", href: "#blog-section", current: false },
   // { name: "Testimonial", href: "#testimonial-section", current: false },
 ];
 
@@ -46,7 +46,6 @@ const Navbar = () => {
                     alt="zehranaz-yolcu"
                     className="logo"
                     width={400}
-                    height={0}
                   />
                 </Link>
               </div>

@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-  "types": ["react", "react-dom", "react-lottie"],
+  "types": ["react", "react-dom"],
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,

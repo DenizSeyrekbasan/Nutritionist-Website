@@ -45,7 +45,7 @@ const Dedicated = () => {
                 className="absolute comma-pos hidden lg:block"
               />
               <h2 className="text-4xl lg:text-65xl pt-4 font-bold sm:leading-tight mt-5 text-center lg:text-start">
-                Merhaba, ben Zehranaz Yolcu,
+                Merhaba, ben Zehranaz Yolcu
               </h2>
               <p className="font-medium text-lightblack text-2xl mt-5 text-center lg:text-start">
                 Beslenme ve sağlıklı yaşam konularına olan ilgim ve tutkum
@@ -59,7 +59,7 @@ const Dedicated = () => {
               </p>
               <p className="font-medium text-lightblack text-2xl mt-5 text-center lg:text-start">
                 Hizmetlerim ve uzmanlığım hakkında daha fazla bilgi edinmek için
-                iletisime gecmeyi unutmayın.
+                iletişime geçmeyi unutmayın.
               </p>
               {/* <p className="text-2xl font-semibold mt-12 lg:ml-32  text-center lg:text-start">
               {" "}

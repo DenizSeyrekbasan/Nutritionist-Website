@@ -78,7 +78,7 @@ const Manage = () => {
     arrows: false,
     autoplay: true,
     speed: 3000,
-    autoplaySpeed: 200,
+    autoplaySpeed: 800,
     cssEase: "linear",
     responsive: [
       {
@@ -217,6 +217,9 @@ const Manage = () => {
               <h3 className="text-sm font-medium text-darkgrey mb-3">
                 {items.desc5}
               </h3>
+              <h3 className="text-sm font-medium text-darkgrey mb-3">
+                {items.desc6}
+              </h3>
             </div>
           ))}
         </div>
@@ -247,6 +250,9 @@ const Manage = () => {
                   </h3>
                   <h3 className="text-sm font-medium text-darkgrey mb-3">
                     {items.desc5}
+                  </h3>
+                  <h3 className="text-sm font-medium text-darkgrey mb-3">
+                    {items.desc6}
                   </h3>
                 </div>
               </div>
