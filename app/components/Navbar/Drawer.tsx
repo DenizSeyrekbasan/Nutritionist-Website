@@ -28,7 +28,12 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
           <header className="px-4 py-4 flex items-center">
             <div className="flex flex-shrink-0 items-center border-right">
               <Link href="/" className="text-2xl font-semibold text-black">
-                DYT Zehranaz Yolcu
+                <img
+                  src="\new-logo-removebg-preview.png"
+                  className=""
+                  alt="zehranaz-yolcu"
+                  width={200}
+                />
               </Link>
             </div>
 

@@ -1,9 +1,11 @@
-import Lottie from "react-lottie";
-import AnimationData from "../../../public/lottie/animation_lmg3449x.json";
+'use client'
+import Lottie from "lottie-react";
+import AnimationData from "../../../public/lottie/bannerLottie.json";
 import Image from "next/image";
 
 const Banner = () => {
   const heroAnimationOptions = {
+    speed:0.5,
     loop: true,
     autoplay: true,
     animationData: AnimationData,
@@ -12,8 +14,8 @@ const Banner = () => {
     },
   };
   return (
-    <div className="mx-auto max-w-7xl my-10 sm:py-10 px-6 lg:px-8">
-      <div className="grid grid-cols-1 lg:grid-cols-2 my-16">
+    <div className="mx-auto max-w-7xl my-10  px-6 lg:px-8 lg:py-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 my-10">
         {/* COLUMN-1 */}
 
         <div className="mx-auto sm:mx-0">
@@ -37,14 +39,14 @@ const Banner = () => {
 
         {/* COLUMN-2 */}
 
-        <div className="lg:-m-30 lg:pt-20 hidden lg:block ">
+        <div className="lg:-m-30 lg:block text-right">
           {/* <Image
-            src="/images/banner/banner-ex.webp"
-            alt="hero-image"
-            width={550} 
-            height={400}
+            src="/banner-bg-2.jpg"
+            alt="zehranaz-yolcu"
+            width={300}
+            height={90}
           /> */}
-          {/* <Lottie speed={0.5} options={heroAnimationOptions} /> */}
+          <Lottie {...heroAnimationOptions} />
         </div>
       </div>
     </div>

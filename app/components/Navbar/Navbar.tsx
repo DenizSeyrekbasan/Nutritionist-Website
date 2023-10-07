@@ -17,7 +17,7 @@ const navigation: NavigationItem[] = [
   { name: "Hakkımda", href: "#dedicated-section", current: false },
   { name: "Paketler", href: "#services-section", current: false },
   { name: "SSS", href: "#faq-section", current: false },
-  // { name: "Blog", href: "#blog-section", current: false },
+  { name: "Instagram", href: "#insta-section", current: false },
   // { name: "Testimonial", href: "#testimonial-section", current: false },
 ];
 
@@ -42,10 +42,9 @@ const Navbar = () => {
                   className="text-2xl sm:text-4xl font-semibold text-black"
                 >
                   <img
-                    src="/images/banner/new-logo(svg).svg"
+                    src="\new-logo-removebg-preview.png"
                     alt="zehranaz-yolcu"
-                    className="logo"
-                    width={400}
+                    width={300}
                   />
                 </Link>
               </div>

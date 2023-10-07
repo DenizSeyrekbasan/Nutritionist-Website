@@ -27,7 +27,7 @@ const Digital = () => {
             <div className="lg:absolute girldoodle">
               <Image
                 src="/images/digital/girldoodle.svg"
-                alt="girldoodle"
+                alt="zehranaz-yolcu"
                 width={815}
                 height={691}
               />

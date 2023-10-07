@@ -7,7 +7,7 @@ import Image from "next/image";
 const Contactusform = () => {
   let [isOpen, setIsOpen] = useState(false);
   const text = "Merhaba, diyet programlarınız hakkında bilgi almak istiyorum ?";
-  const whatsappLink = `https://api.whatsapp.com/send?phone=5308511707&text=${encodeURIComponent(
+  const whatsappLink = `https://api.whatsapp.com/send?phone=+905308511707&text=${encodeURIComponent(
     text
   )}`;
 
