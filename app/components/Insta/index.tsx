@@ -4,9 +4,9 @@ import Link from "next/link";
 const Insta = () => {
   return (
     <div id="insta-section">
-      <div className="mx-auto max-w-2xl  pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className="mx-auto max-w-2xl pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className=" mt-24 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-          <div className="mx-auto imageContainer mt-40">
+          <div className="mx-auto imageContainer sm:mt-40 mt-50">
             <Image
               src="/insta/IMG_8759.jpg"
               width={306}
@@ -36,7 +36,7 @@ const Insta = () => {
             </Link>
           </div>
 
-          <div className="mx-auto imageContainer mt-40">
+          <div className="mx-auto imageContainer sm:mt-40 mt-50">
             <Image
               src="/insta/IMG_LAST_jpg.jpg"
               width={306}
@@ -66,7 +66,7 @@ const Insta = () => {
             </Link>
           </div>
 
-          <div className="mx-auto imageContainer mt-40">
+          <div className="mx-auto imageContainer sm:mt-40 mt-50">
             <Image
               src="/insta/IMG_1012.JPG"
               width={306}
@@ -94,7 +94,7 @@ const Insta = () => {
             </Link>
           </div>
 
-          <div className="mx-auto imageContainer mt-40">
+          <div className="mx-auto imageContainer sm:mt-40 mt-50">
             <Image
               src="/insta/IMG_7088.jpg"
               width={306}

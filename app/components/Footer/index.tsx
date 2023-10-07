@@ -1,35 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// MIDDLE LINKS DATA
 interface ProductType {
   id: number;
   section: string;
   link: string[];
 }
-
-// const products: ProductType[] = [
-//   {
-//     id: 1,
-//     section: "Menu",
-//     link: ["Home", "Popular", "About", "Contact"],
-//   },
-//   {
-//     id: 2,
-//     section: "Category",
-//     link: ["Design", "Mockup", "View all", "Log In"],
-//   },
-//   {
-//     id: 3,
-//     section: "Pages",
-//     link: ["404", "Instructions", "License"],
-//   },
-//   {
-//     id: 4,
-//     section: "Others",
-//     link: ["Styleguide", "Changelog"],
-//   },
-// ];
 
 const footer = () => {
   const text = "Merhaba, diyet programlarınız hakkında bilgi almak istiyorum ?";
@@ -47,11 +23,11 @@ const footer = () => {
           {/* COLUMN-1 */}
 
           <div className="col-span-4">
-            <h3 className="text-white text-4xl font-semibold leading-9 mb-4 lg:mb-10">
+            <h3 className="text-white text-5xl font-semibold leading-9 mb-4 lg:mb-10">
               {" "}
               Zehranaz Yolcu
             </h3>
-            <div className="flex gap-4">
+            <div className="flex gap-4 mt-10">
               <div className="footer-icons">
                 <Link
                   href="https://instagram.com/dyt.zehranazyolcu?igshid=MzRlODBiNWFlZA=="
@@ -60,17 +36,20 @@ const footer = () => {
                   <Image
                     src={"/social-svg-icons/svg-instagram.svg"}
                     alt="zehranaz-yolcu"
-                    width={20}
+                    width={30}
                     height={20}
                   />
                 </Link>
               </div>
               <div className="footer-icons">
-                <Link href="https://tr.linkedin.com/in/zehranaz-yolcu-51437b267" target="_blank">
+                <Link
+                  href="https://tr.linkedin.com/in/zehranaz-yolcu-51437b267"
+                  target="_blank"
+                >
                   <Image
                     src={"/social-svg-icons/svg-linkedin.svg"}
                     alt="zehranaz-yolcu"
-                    width={20}
+                    width={30}
                     height={20}
                   />
                 </Link>
@@ -80,7 +59,7 @@ const footer = () => {
                   <Image
                     src={"/social-svg-icons/svg-whatsapp.svg"}
                     alt="zehranaz-yolcu"
-                    width={20}
+                    width={30}
                     height={20}
                   />
                 </Link>
@@ -90,39 +69,15 @@ const footer = () => {
                   <Image
                     src={"/social-svg-icons/svg-mail.svg"}
                     alt="zehranaz-yolcu"
-                    width={20}
+                    width={30}
                     height={20}
                   />
                 </Link>
               </div>
             </div>
           </div>
-
-          {/* CLOUMN-2/3 */}
-
-          {/* {products.map((product) => (
-            <div key={product.id} className="group relative col-span-2">
-              <p className="text-white text-xl font-extrabold mb-9">
-                {product.section}
-              </p>
-              <ul>
-                {product.link.map((link: string, index: number) => (
-                  <li key={index} className="mb-5">
-                    <Link
-                      href="/"
-                      className="text-white text-lg font-normal mb-6 space-links"
-                    >
-                      {link}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))} */}
         </div>
       </div>
-
-      {/* All Rights Reserved */}
 
       <div className="mx-auto max-w-2xl lg:max-w-7xl">
         <div className="pt-5 pb-5 px-4 sm:px-6 lg:px-4 border-solid border-t border-footer">
@@ -132,16 +87,6 @@ const footer = () => {
                 @2023 - Tüm hakları saklıdır - Zehranaz Yolcu
               </h3>
             </div>
-            {/* <div className="flex justify-center md:justify-end">
-              <Link href="/">
-                <h3 className="text-offwhite pr-6">Privacy policy</h3>
-              </Link>
-              <Link href="/">
-                <h3 className="text-offwhite pl-6 border-solid border-l border-footer">
-                  Terms & conditions
-                </h3>
-              </Link>
-            </div> */}
           </div>
         </div>
       </div>

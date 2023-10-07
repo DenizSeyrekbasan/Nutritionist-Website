@@ -1,35 +1,50 @@
 "use client";
 import { useState } from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import packets from "../../../data/packets/packets.json";
 import Link from "next/link";
 
 const Manage = () => {
-  const [enabled, setEnabled] = useState(false);
   const text = "Merhaba, diyet programlarınız hakkında bilgi almak istiyorum ?";
   const whatsappLink = `https://api.whatsapp.com/send?phone=+905308511707&text=${encodeURIComponent(
     text
   )}`;
-
-  const sliderSettings = {
+  const settings = {
     dots: true,
     infinite: false,
-    speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    arrows: false,
+    autoplay: false,
+    speed: 500,
+    autoplaySpeed: 1800,
+    cssEase: "linear",
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 450,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
         },
       },
     ],
@@ -42,11 +57,10 @@ const Manage = () => {
           Danışmanlık Alanlarım
         </h3>
 
-        <Slider {...sliderSettings}>
+        <Slider {...settings}>
           {packets.map((items, i) => (
             <div className="manageTabs text-center p-10 mt-10" key={i}>
               <h4 className="text-2xl font-bold mb-3">{items.heading}</h4>
-
               <button className="text-base font-bold text-blue bg-transparent hover:bg-blue hover:text-white border-2 border-blue rounded-full py-4 px-12 mb-6">
                 <Link href={whatsappLink} target="_blank">
                   İletişime geçin
